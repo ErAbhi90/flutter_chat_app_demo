@@ -35,11 +35,11 @@
 		<string>Editor</string>
 		<key>CFBundleURLSchemes</key>
 		<array>
-			<string>com.googleusercontent.apps.1025103682621-3g057g8siit2u03v8fka784ulvug760l</string>
+			<string>com.googleusercontent.apps.1025103682621-nubeg2i1pt9mer8aeh795f97ja18u58a</string>
 		</array>
 	</dict>
 </array>
-	<key>UISupportedInterfaceOrientations</key>
+<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>

@@ -7,17 +7,17 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1025103682621:android:f4793dfe15ba83f8225e54",
+        "mobilesdk_app_id": "1:1025103682621:android:906d36fcfc1353e1225e54",
         "android_client_info": {
-          "package_name": "com.example.flutter_chat_app_demo"
+          "package_name": "ca.digiknights.flutter_chat_app_demo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1025103682621-itr1hmai5dolc0vu42ol5j1l2som8t1m.apps.googleusercontent.com",
+          "client_id": "1025103682621-t2i2vgq3e7n2b3sr5ae6i9b7lfh2eohs.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.flutter_chat_app_demo",
+            "package_name": "ca.digiknights.flutter_chat_app_demo",
             "certificate_hash": "2364669fe1e219eb32bf5b344a2d0b125da14f95"
           }
         },

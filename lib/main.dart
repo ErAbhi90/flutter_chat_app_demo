@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_chat_app_demo/app_settings/configs/app_config.dart';
-import 'package:flutter_chat_app_demo/app_settings/configs/app_strings.dart';
-import 'package:flutter_chat_app_demo/app_settings/router/app_router.dart';
-import 'package:get_it/get_it.dart';
+import 'package:flutter_chat_app_demo/app_settings/settings.dart';
 
 void main() async {
   await AppConfig.configure();
@@ -18,11 +14,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp.router(
       title: AppStrings.appTitle,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: AppTheme.light,
       routerDelegate: _router.routerDelegate,
       routeInformationParser: _router.routeInformationParser,
+      routeInformationProvider: _router.routeInformationProvider,
     );
   }
 }

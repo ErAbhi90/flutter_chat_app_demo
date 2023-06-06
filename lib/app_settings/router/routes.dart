@@ -1,15 +1,24 @@
 enum AppRoutes {
   auth,
-  home,
+  splash,
+  message,
+  profile,
+  search,
 }
 
 extension AppRoutesExt on AppRoutes {
   String get getPath {
     switch (this) {
-      case AppRoutes.home:
+      case AppRoutes.message:
         return '/';
       case AppRoutes.auth:
         return '/auth';
+      case AppRoutes.splash:
+        return '/splash';
+      case AppRoutes.profile:
+        return '/profile';
+      case AppRoutes.search:
+        return '/search';
       default:
         return '/';
     }
@@ -19,10 +28,16 @@ extension AppRoutesExt on AppRoutes {
     switch (this) {
       case AppRoutes.auth:
         return 'authScreen';
-      case AppRoutes.home:
-        return 'home';
+      case AppRoutes.splash:
+        return 'splashScreen';
+      case AppRoutes.message:
+        return 'messageScreen';
+      case AppRoutes.profile:
+        return 'profileScreen';
+      case AppRoutes.search:
+        return 'searchScreen';
       default:
-        return 'home';
+        return 'messageScreen';
     }
   }
 }

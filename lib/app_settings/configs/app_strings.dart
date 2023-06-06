@@ -5,4 +5,7 @@ class AppStrings {
   static const String nothingHere = 'There’s nothing here...';
   static const String pageNotFound = 'The page you’re looking for is not found or never existed.';
   static const String backToHomePage = 'BACK TO HOME PAGE';
+  static const String profile = 'Profile';
+  static const String messages = 'Messages';
+  static const String search = 'Search';
 }

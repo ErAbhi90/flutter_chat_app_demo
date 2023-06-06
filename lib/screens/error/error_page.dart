@@ -1,10 +1,4 @@
-// Flutter imports:
-import 'package:flutter/material.dart';
-import 'package:flutter_chat_app_demo/app_settings/configs/app_colors.dart';
-import 'package:flutter_chat_app_demo/app_settings/configs/app_images.dart';
-import 'package:flutter_chat_app_demo/app_settings/configs/app_strings.dart';
-import 'package:flutter_chat_app_demo/app_settings/router/app_router.dart';
-import 'package:go_router/go_router.dart';
+import 'package:flutter_chat_app_demo/app_settings/settings.dart';
 
 class ErrorPage extends StatelessWidget {
   const ErrorPage({Key? key, this.error}) : super(key: key);
